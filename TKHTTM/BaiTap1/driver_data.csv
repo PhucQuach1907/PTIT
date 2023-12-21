@@ -1,0 +1,11 @@
+group,gender,has_license
+A,M,Yes
+A,F,No
+A,M,Yes
+B,F,Yes
+B,M,No
+B,M,Yes
+C,F,No
+C,F,Yes
+C,F,No
+
