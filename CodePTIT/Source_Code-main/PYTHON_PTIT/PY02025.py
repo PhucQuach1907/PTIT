@@ -1,0 +1,6 @@
+n, m = map(int, input().split())
+A = set(sorted(list(map(int, input().split()))))
+B = set(sorted(list(map(int, input().split()))))
+print(" ".join(map(str, sorted(A & B))))
+print(" ".join(map(str, sorted(A-B))))
+print(" ".join(map(str, sorted(B-A))))

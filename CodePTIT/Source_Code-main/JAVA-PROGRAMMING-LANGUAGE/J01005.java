@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt(), h = sc.nextInt();
+            for (int i = 1; i < n; i++)
+                System.out.printf("%.6f ", h * Math.sqrt(i * 1.0 / n));
+            System.out.print("\n");
+        }
+    }
+}
